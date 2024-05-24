@@ -2,7 +2,7 @@
 
 
 <div align=center>
-  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/angelamcosta/get_next_line" /> <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/angelamcosta/get_next_line" /> <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/angelamcosta/get_next_line" /> <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/angelamcosta/get_next_line" />  <img alt="Github License" src="https://img.shields.io/github/license/angelamcosta/get_next_line" /> <img alt="wakatime" src="https://wakatime.com/badge/user/0c29d5b3-c30b-4e1a-ad07-2da3bd4f7e05/project/154bda21-dcba-4f9b-903a-09cebb8771dd.svg" />
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/matondomp/get_next_line" /> <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/matondomp/get_next_line" /> <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/matondomp/get_next_line" /> <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/angelamcosta/get_next_line" />  <img alt="Github License" src="https://img.shields.io/github/license/matondomp/get_next_line" /> <img alt="wakatime" src="https://wakatime.com/badge/user/0c29d5b3-c30b-4e1a-ad07-2da3bd4f7e05/project/154bda21-dcba-4f9b-903a-09cebb8771dd.svg" />
 </div>
 
 `get_next_line` is a function that reads a line from a file descriptor and returns it as a string. It allows reading text from the file descriptor one line at a time until the end of the file. The function is designed to mimic the behavior of the standard `getline()` function and provides a convenient way to read input from files or other sources.
