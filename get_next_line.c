@@ -8,8 +8,8 @@ char	*get_next_line(int fd)
 
 	if (fd < 0 || BUFFER_SIZE < 1 || read(fd, 0, 0) < 0)
 		return (NULL);
-	next_line = ft_strjoin(0, line);
-	if (ft_clean(line) > 0)
+	next_line = ft_strjoin_before_new_line(0, line);
+	if (ft_after_new_line(line) > 0)
 		return (next_line);
 	i = read(fd, line, BUFFER_SIZE);
 	if (i < 0)
@@ -19,8 +19,8 @@ char	*get_next_line(int fd)
 	}
 	while (i > 0)
 	{
-		next_line = ft_strjoin(next_line, line);
-		if (ft_clean(line) > 0)
+		next_line = ft_strjoin_before_new_line(next_line, line);
+		if (ft_after_new_line(line) > 0)
 			break ;
 		i = read(fd, line, BUFFER_SIZE);
 	}

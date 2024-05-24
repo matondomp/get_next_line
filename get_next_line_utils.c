@@ -1,6 +1,6 @@
 #include "get_next_line.h"
 
-char	*ft_strjoin(char *s1, char *s2)
+char	*ft_strjoin_before_new_line(char *s1, char *s2)
 {
 	char	*joined;
 	int		i;
@@ -40,7 +40,7 @@ size_t	ft_strlen(char *s)
 	return (i);
 }
 
-int	ft_clean(char *str)
+int	ft_after_new_line(char *str)
 {
 	int	i;
 	int	j;

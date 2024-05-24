@@ -8,8 +8,8 @@
 # endif
 
 char	*get_next_line(int fd);
-char	*ft_strjoin(char *s1, char *s2);
+char	*ft_strjoin_before_new_line(char *s1, char *s2);
 size_t	ft_strlen(char *s);
-int		ft_clean(char *str);
+int		ft_after_new_line(char *str);
 
 #endif
